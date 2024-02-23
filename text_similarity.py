@@ -57,8 +57,8 @@ def cosine_similarity(tfidf1, tfidf2):
     return similarity
 
 # Read text from files
-file1_path = "paragraph1.txt"
-file2_path = "paragraph2.txt"
+file1_path = "t1.txt"
+file2_path = "t2.txt"
 text1 = read_text_from_file(file1_path)
 text2 = read_text_from_file(file2_path)
 
